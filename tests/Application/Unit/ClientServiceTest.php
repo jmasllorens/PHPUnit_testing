@@ -17,6 +17,6 @@ class ClientServiceTest extends TestCase {
         $result = $clientService->list();
 
         $this->assertIsArray($result);
-        $this->assertEquals('cliente1', $result[0]->getName);
+        $this->assertEquals('cliente1', $result[0]->getName());
     }
 }

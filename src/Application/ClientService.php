@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Application\ClientService;
+namespace App\Application;
 
 use App\Application\Infrastructure\ClientRepository;
 use App\Domain\Contracts\IClientRepository;
