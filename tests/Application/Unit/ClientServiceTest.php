@@ -8,6 +8,7 @@ use Tests\Application\Doubles\ClientDoubleRepository;
 
 
 
+
 class ClientServiceTest extends TestCase {
 
     public function test_returns_clients_list() {

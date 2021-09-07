@@ -11,7 +11,7 @@ class ClientInMemoryRepository implements IClientRepository {
 
     public function __construct()
     {
-        array_push($this->data, new Client('soy el cliente en memoria RAM'));
+        array_push($this->data, new Client('cliente1'));
     }
 
     public function listAll(): array

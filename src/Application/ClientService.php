@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Application\Infrastructure\ClientRepository;
+namespace App\Application\ClientService;
 
-
+use App\Application\Infrastructure\ClientRepository;
 use App\Domain\Contracts\IClientRepository;
 use Tests\Application\Doubles\ClientDoubleRepository;
 
