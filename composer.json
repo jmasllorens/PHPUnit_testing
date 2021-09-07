@@ -1,0 +1,10 @@
+{
+    "name": "jmasl/kata-fizz-buzz",
+    "authors": [
+        {
+            "name": "Jael Masllorens",
+            "email": "jmasllorens@gmail.com"
+        }
+    ],
+    "require": {}
+}
