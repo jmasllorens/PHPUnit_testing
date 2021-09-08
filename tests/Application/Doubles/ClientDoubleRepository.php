@@ -9,7 +9,7 @@ class ClientDoubleRepository implements IClientRepository {
 
     public function listAll(): array
     {
-     $clients = [new Client('client1'), new Client('client2')];
+     $clients = [new Client('client1', new \App\Domain\ValueObjects\ClientId()), new Client('client2', new \App\Domain\ValueObjects\ClientId())];
      
      return $clients;
     }
