@@ -6,9 +6,9 @@ class ClientId {
 
     public string $id;
 
-    public function __construct()
+    public function __construct(? string $id = null)
     {
-        $this->id = uniqid();
+        $this->id = $id ?: uniqid();
         
     }
 

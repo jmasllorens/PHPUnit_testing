@@ -9,10 +9,10 @@ class Client {
     private ClientId $id;
     private string $name;
 
-    public function __construct(string $name, ? ClientId $id)
+    public function __construct(string $name, ? ClientId $id = null) 
     {
         $this->name = $name;
-        $this->id = $id;
+        $this->id = $id ?: new ClientId();
     }
 
     public function getName(): string 
